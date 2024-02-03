@@ -6,4 +6,4 @@ Customized Docker images for the Pterodactyl Panel made for specific software. M
 ### [Python](/python)
 
 * [`3.11-koboldcpp`](/python/3.11-koboldcpp)
-  * `ghcr.io/LogicismDev/pterodactyl-yolks:python_3.11-koboldcpp`
+  * `ghcr.io/logicismdev/pterodactyl-yolks:python_3.11-koboldcpp`
