@@ -7,7 +7,7 @@ RUN apt-get update && apt-get upgrade -y \
     ocl-icd-opencl-dev opencl-headers clinfo \
     libclblast-dev libopenblas-dev git gcc g++ ca-certificates \
     dnsutils curl iproute2 ffmpeg procps tini \
-    && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
+    && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
     && useradd -m -d /home/container container
 
 USER container
