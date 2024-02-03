@@ -1,2 +1,9 @@
 # pterodactyl-yolks
-Docker images for Pterodactyl Panel
+Customized Docker images for the Pterodactyl Panel made for specific software. More yolks may be added in the future.
+
+## Images
+
+### [Python](/python)
+
+* [`3.11-koboldcpp`](/python/3.11-koboldcpp)
+  * `ghcr.io/LogicismDev/pterodactyl-yolks:python_3.11-koboldcpp`
